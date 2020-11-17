@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>SIyuyukoの療愈室</title>
+<title>CRT编程题示例 | SIyuyukoの療愈室</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,8 +18,15 @@
 
 
 
-    <meta name="description" content="最 佳 生 存 手 冊 進 度 0 %">
-    
+    <meta name="description" content="#include 
+using namespace std;
+void main()
+{
+int m1,m2,m3,b1,b2,b3,M1,M2,M3,M;
+m1=3,m2=5,m3=7;
+b1=2,b2=4,b3=6;
+M1=m2m3,M..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -89,27 +96,60 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://siyuyuko.github.io/post/crt-bian-cheng-ti-shi-li/">
-                  <h2 class="post-title">CRT编程题示例</h2>
-                </a>
-                <div class="post-date">
-                  2020-11-17
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+          <div class="post-detail">
+            <h2 class="post-title">CRT编程题示例</h2>
+            <div class="post-date">2020-11-17</div>
+            
+            <div class="post-content" v-pre>
+              <p>#include <iostream><br>
+using namespace std;<br>
+void main()<br>
+{<br>
+int m1,m2,m3,b1,b2,b3,M1,M2,M3,M;<br>
+m1=3,m2=5,m3=7;<br>
+b1=2,b2=4,b3=6;<br>
+M1=m2<em>m3,M2=m1</em>m3,M3=m1<em>m2;<br>
+M=m1</em>m2<em>m3;<br>
+int rev1=0;<br>
+do<br>
+{<br>
+rev1++;<br>
+} while((M1</em>rev1)%m1!=1);//求M1的逆<br>
+int rev2=0;<br>
+do<br>
+{<br>
+rev2++;<br>
+} while((M2<em>rev2)%m2!=1);//求M2的逆<br>
+int rev3=0;<br>
+do<br>
+{<br>
+rev3++;<br>
+} while((M3</em>rev3)%m3!=1);//求M3的逆<br>
+int x=0;//定义x为要求的数<br>
+for(int q=0; ; q++)//定义q为多少倍M与之前的三组同余式乘积相加后，能够求出相应范围的x(由题干知，这里x的取值范围为1000~1100)<br>
+{	<br>
+x=M1<em>rev1</em>b1+M2<em>rev2</em>b2+M3<em>rev3</em>b3+M*q;<br>
+if (x&gt;=1000&amp;&amp;x&lt;=1100)<br>
+break;<br>
+else<br>
+continue;<br>
+}<br>
+//根据题意，比如上下文说了X的一个范围，就需要在范围内找到一个和所求x同余的数。而这个调整，就是通过这个q倍m来调整。<br>
+int m[3]={3,5,7};<br>
+int b[3]={2,4,6};<br>
+for(int i=0;i&lt;3;i++)<br>
+{cout&lt;&lt;endl&lt;&lt;&quot;站&quot;&lt;&lt;m[i]&lt;&lt;&quot;人一排,多出&quot;&lt;&lt;b[i]&lt;&lt;&quot;人；&quot;;}<br>
+cout&lt;&lt;endl&lt;&lt;&quot;韩信点兵剩余人数为：&quot;&lt;&lt;x&lt;&lt;endl;<br>
+system (&quot;pause&quot;);//程序暂停作用<br>
+}</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+
+            
+
+          </div>
 
         </div>
       </div>
