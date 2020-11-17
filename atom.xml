@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://siyuyuko.github.io</id>
-    <title>SIyuyuko</title>
-    <updated>2020-11-17T13:51:53.340Z</updated>
+    <title>SIyuyukoの療愈室</title>
+    <updated>2020-11-17T13:57:43.222Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://siyuyuko.github.io"/>
     <link rel="self" href="https://siyuyuko.github.io/atom.xml"/>
     <subtitle>最 佳 生 存 手 冊 進 度 0 %</subtitle>
     <logo>https://siyuyuko.github.io/images/avatar.png</logo>
     <icon>https://siyuyuko.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, SIyuyuko</rights>
+    <rights>All rights reserved 2020, SIyuyukoの療愈室</rights>
 </feed>
